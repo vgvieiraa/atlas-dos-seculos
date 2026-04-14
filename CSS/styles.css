@@ -162,10 +162,12 @@ td {
 
 
 #periodos {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
+    background: transparent;
+    border: none;
     padding: 0;
-
 }
 
 #periodos article {
