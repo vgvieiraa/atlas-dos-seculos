@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Entre em contato com a equipe do Atlas dos Séculos. Envie suas dúvidas, sugestões ou comentários sobre a história mundial e do Brasil.">
+    <meta name="description"
+        content="Entre em contato com a equipe do Atlas dos Séculos. Envie suas dúvidas, sugestões ou comentários sobre a história mundial e do Brasil.">
     <meta name="keywords" content="Contato, Atlas dos Séculos, História, Fale Conosco, Dúvidas, Sugestões">
     <meta name="author" content="Vitor Gabriel Vieira da Costa">
     <meta name="robots" content="index, follow">
 
     <title>Contato | Atlas dos Séculos</title>
-    <link rel="stylesheet" href="CSS/contato.css"> </head>
+    <link rel="stylesheet" href="CSS/contato.css">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBV4H5ECZH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JBV4H5ECZH');
+    </script>
+</head>
+
 <body>
     <header style="--bg-image: url('../imagens/figuras.png');">
-       <nav>
+        <nav>
             <a href="index.html">Início</a>
             <hr>
             <a href="revolucao-francesa.html">Revolução Francesa</a>
@@ -39,10 +51,10 @@
 
     <main>
         <section class="sessao-contato">
-            <h2>Formulário de Contato</h2> 
-            
+            <h2>Formulário de Contato</h2>
+
             <form action="#" method="POST" class="formulario">
-                
+
                 <div class="campo-form">
                     <label for="inome">Nome:</label>
                     <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
@@ -60,7 +72,8 @@
 
                 <div class="campo-form">
                     <label for="imensagem">Mensagem:</label>
-                    <textarea name="mensagem" id="imensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    <textarea name="mensagem" id="imensagem" rows="5" placeholder="Escreva sua mensagem aqui..."
+                        required></textarea>
                 </div>
 
                 <div class="campo-botao">
@@ -76,4 +89,5 @@
         <a href="https://www.uniube.br/" target="_blank"><img src="imagens/uniubebranca.png" alt="Logo da Uniube"></a>
     </footer>
 </body>
+
 </html>
