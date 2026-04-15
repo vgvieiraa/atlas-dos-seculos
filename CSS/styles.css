@@ -190,7 +190,7 @@ td {
     flex-direction: row-reverse;
 }
 
-#periodos article:hover a {
+#periodos article a:hover {
     transform: translateY(-5px);
     
 }
