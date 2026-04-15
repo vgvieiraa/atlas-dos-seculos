@@ -1,0 +1,26 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://atlas-dos-seculos.github.io/</loc>
+        <lastmod>2024-06-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://atlas-dos-seculos.github.io/index.html</loc>
+        <lastmod>2024-06-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://atlas-dos-seculos.github.io/CSS/styles.css</loc>
+        <lastmod>2024-06-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://atlas-dos-seculos.github.io/JS/script.js</loc>
+        <lastmod>2024-06-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
